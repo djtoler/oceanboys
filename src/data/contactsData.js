@@ -1,6 +1,6 @@
 export const contactsData = {
-    email: 'dwaynetoler@gmail.com',
-    phone: '248-416-9553',
+    email: 'rogerjohnson@gmail.com',
+    phone: '313-555-5555',
     address: 'Detroit, Michigan, United States ',
 
     sheetAPI: ''
