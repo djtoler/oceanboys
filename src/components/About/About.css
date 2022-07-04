@@ -58,9 +58,16 @@ border-radius: 10px;
   font-family: var(--primaryFont);
 }
 
+/* img {
+  border-radius: 50%;
+} */
+
+.headerpic {
+  width: 100%;
+}
+
 .ocbpic {
-  border-radius: 20%;
-  border-color: rgb(110, 206, 232);
+  border-bottom: 2px solid white;
 }
 
 .about-img {
@@ -140,8 +147,8 @@ border-radius: 10px;
 
 @media screen and (max-width: 600px){
 
-.ocbpic {
-  border-radius: 20%;
+.headerpic {
+  border-radius: 50%;
   border-color: rgb(110, 206, 232);
 }
 

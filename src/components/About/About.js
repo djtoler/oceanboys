@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import oboyz from "../../assets/svg/testimonials/oboyz.png"
+import oboyz from "../../assets/svg/testimonials/obupdate.png"
 import './About.css';
 import { ThemeContext } from '../../contexts/ThemeContext';
 import { aboutData } from '../../data/aboutData'
@@ -13,9 +13,8 @@ function About() {
         <div className="about" id="about" style={{backgroundColor: theme.secondary}}>
 
             <div className="ocbpic">
-                <img src={oboyz} alt="Image" 
-                width="300"
-                height="200"
+                <img className="headerpic" src={oboyz} alt="Image" 
+                height="500"
                 />
             </div>
             <div className="about-body">
