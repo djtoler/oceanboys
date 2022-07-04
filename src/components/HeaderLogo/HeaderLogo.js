@@ -1,7 +1,7 @@
 import React from 'react'
 
 function HeaderLogo () {
-    const image = 'https://imgur.com/a/36VGbWs'
+    const image = ''
     return (
         <div>
             <img src={image} alt="Image" 
