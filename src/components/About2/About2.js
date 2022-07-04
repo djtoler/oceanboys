@@ -20,7 +20,7 @@ function About2() {
                         {aboutData.description2}</p>
                 </div>
                 <div className="about-img">
-                    <iframe width="560" height="315" 
+                    <iframe width="200" height="315" 
                         src="https://www.youtube.com/embed/PwzTtvc-yvg" 
                         title="YouTube video player" 
                         frameborder="0" 
