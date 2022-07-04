@@ -135,6 +135,11 @@ border-radius: 10px;
 
 @media screen and (max-width: 600px){
 
+.ocbpic {
+  border-radius: 20%;
+  border-color: rgb(110, 206, 232);
+}
+
 .about .line-styling .style-circle{
   width: 5px;
   height: 5px;
