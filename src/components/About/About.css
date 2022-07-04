@@ -149,7 +149,9 @@ border-radius: 10px;
 
 .headerpic {
   border-radius: 50%;
+  height: 150;
   border-color: rgb(110, 206, 232);
+  border-radius: 10px solid blue;
 }
 
 .about .line-styling .style-circle{
@@ -171,7 +173,12 @@ border-radius: 10px;
     font-size: 0.95rem;
   }
 
+  iframe {
+    margin-top: 70px;
+  }
+
   .about-img > img {
+      
       width: 200px;
   }
 }
