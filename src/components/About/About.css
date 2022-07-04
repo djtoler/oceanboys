@@ -58,6 +58,11 @@ border-radius: 10px;
   font-family: var(--primaryFont);
 }
 
+.ocbpic {
+  border-radius: 20%;
+  border-color: rgb(110, 206, 232);
+}
+
 .about-img {
   margin-top: 40px;
   pointer-events: none;
