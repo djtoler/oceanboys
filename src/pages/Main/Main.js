@@ -15,6 +15,7 @@ function Main() {
     return (
         <div>
             <About />
+            <About2 />
             <Testimonials />
             <Skills />
             <Contacts />

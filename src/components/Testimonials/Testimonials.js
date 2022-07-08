@@ -46,7 +46,7 @@ function Testimonials() {
                     style={{ backgroundColor: theme.primary }}
                 >
                     <div className='testimonials--header'> <br/>
-                        <h1 style={{ color: theme.secondary }}> Learn About Investing</h1>
+                        <h1 style={{ color: theme.secondary }}> Our Primary Investing Focus</h1>
                     </div>
                     <div className='testimonials--body'>
                         <div className='quote1'>
@@ -110,6 +110,15 @@ function Testimonials() {
                                     aria-label='Next testimonial'
                                 />
                             </button>
+                        </div>
+                        <div className='yt-vid'>
+                            <iframe width="400" height="315" 
+                            src="https://www.youtube.com/embed/PwzTtvc-yvg" 
+                            title="YouTube video player" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>
+                            </iframe>
                         </div>
                     </div>
                 </div>

@@ -1,10 +1,13 @@
  export const skillsData = [
-    'Robinhood',
+    'Disney',
     'SalesForce',
-    'Twitter',
-    'Google',
+    'Apple',
+    'Dow',
+    'ATT',
     'Exxon',
-    'GameStop',
+    'PlugPower',
+    'Innovative',
+    'Pave'
 ]
 
 // Choose your skills from below. Make sure it's in the same format and spelled correctly.

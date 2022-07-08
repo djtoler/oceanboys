@@ -23,16 +23,20 @@ function About() {
                     <p style={{color:theme.tertiary80}}>
                         {aboutData.description1}
                         <br/><br/>
-                        {aboutData.description2}</p>
-                </div>
-                <div className="about-img">
-                    <iframe width="400" height="315" 
-                        src="https://www.youtube.com/embed/PwzTtvc-yvg" 
-                        title="YouTube video player" 
-                        frameborder="0" 
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                        allowfullscreen>
-                    </iframe>
+                        {aboutData.description2}
+                        <br/><br/>
+                        {aboutData.description3}
+                        <br/><br/>
+                        {aboutData.description4}
+                        <br/><br/>
+                        {aboutData.description5}
+                        <br/><br/>
+                        {aboutData.description6}
+                        <br/><br/>
+                        {aboutData.description7}
+                        <br/><br/>
+                        {aboutData.description8}
+                    </p>
                 </div>
             </div>
         </div>

@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import oboyz from "../../assets/svg/testimonials/oboyz.png"
 import './About2.css';
 import { ThemeContext } from '../../contexts/ThemeContext';
-import { aboutData } from '../../data/aboutData'
+import { aboutData2 } from '../../data/aboutData'
 
 
 
@@ -11,22 +11,22 @@ function About2() {
     const { theme } = useContext(ThemeContext);
     return (
         <div className="about" id="about" style={{backgroundColor: theme.secondary}}>
-            <div className="about-body">
+            <div className="about-body2">
                 <div className="about-description">
-                    <h2 style={{color: theme.primary}}>{aboutData.title}</h2>
-                    <p style={{color:theme.tertiary80}}>
-                        {aboutData.description1}
-                        <br/><br/>
-                        {aboutData.description2}</p>
-                </div>
-                <div className="about-img">
-                    <iframe width="200" height="315" 
+                    <h2 style={{color: theme.primary}}>{aboutData2.title}</h2>
+                    <div className="about-img">
+                    <iframe width="400" height="315" 
                         src="https://www.youtube.com/embed/PwzTtvc-yvg" 
                         title="YouTube video player" 
                         frameborder="0" 
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                         allowfullscreen>
                     </iframe>
+                </div>
+                    <p style={{color:theme.tertiary80}}>
+                        {aboutData2.description1}
+                        <br/><br/>
+                        {aboutData2.description2}</p>
                 </div>
             </div>
         </div>
