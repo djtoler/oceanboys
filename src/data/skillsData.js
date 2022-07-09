@@ -6,7 +6,7 @@
     'ATT',
     'Exxon',
     'PlugPower',
-    'Innovative',
+    'IIPR',
     'Pave'
 ]
 

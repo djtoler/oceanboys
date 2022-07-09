@@ -112,13 +112,6 @@ function Testimonials() {
                             </button>
                         </div>
                         <div className='yt-vid'>
-                            <iframe width="400" height="315" 
-                            src="https://www.youtube.com/embed/PwzTtvc-yvg" 
-                            title="YouTube video player" 
-                            frameborder="0" 
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                            allowfullscreen>
-                            </iframe>
                         </div>
                     </div>
                 </div>

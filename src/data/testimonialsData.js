@@ -19,12 +19,7 @@ export const testimonialsData = [
     {
         id: 1,
         name: 'Stock(aka an equity)',
-        title: `"A stock is a security that represents the ownership of a fraction of a company,
-        corporation or business. By owning a stock OceanBoyz Investment Group is
-        entitled to a proportion of the corporation&#39;s assets and profits equal to how
-        much stock we own. Units of stock are called &quot;shares.&quot; Stocks are bought and
-        sold predominantly on stock exchanges and are the foundation of many
-        investors&#39; portfolios."`,
+        title: `"A stock is a security that represents the ownership of a fraction of a company or business.  Units of stock are called "shares."  By owning “shares” of stock, OceanBoyz is entitled to a proportion of the corporation's assets and profits equal to how much stock we own. "`,
         text: `"orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has..."`,
         image: equity2,
     },

@@ -15,13 +15,6 @@ function About2() {
                 <div className="about-description">
                     <h2 style={{color: theme.primary}}>{aboutData2.title}</h2>
                     <div className="about-img">
-                    <iframe width="400" height="315" 
-                        src="https://www.youtube.com/embed/PwzTtvc-yvg" 
-                        title="YouTube video player" 
-                        frameborder="0" 
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                        allowfullscreen>
-                    </iframe>
                 </div>
                     <p style={{color:theme.tertiary80}}>
                         {aboutData2.description1}

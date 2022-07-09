@@ -84,7 +84,7 @@ import canva from "../assets/svg/skills/canva.svg";
 import disney from "../assets/svg/skills/disney.png";
 import apple from "../assets/svg/skills/apple.png";
 import dow from "../assets/svg/skills/dow.png";
-import innovative from "../assets/svg/skills/innovative.png";
+import iipr from "../assets/svg/skills/iipr.png";
 import plugpower from "../assets/svg/skills/plugpower.png";
 import att from "../assets/svg/skills/att.png";
 import pave from "../assets/svg/skills/pave.png";
@@ -260,8 +260,8 @@ export const skillsImage = (skill) => {
       return apple;
     case "dow":
       return dow;
-    case "innovative":
-      return innovative;
+    case "iipr":
+      return iipr;
     case "plugpower":
       return plugpower;
     case "att":
