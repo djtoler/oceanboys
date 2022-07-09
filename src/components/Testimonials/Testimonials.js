@@ -49,9 +49,6 @@ function Testimonials() {
                         <h1 style={{ color: theme.secondary }}> Our Primary Investing Focus</h1>
                     </div>
                     <div className='testimonials--body'>
-                        <div className='quote1'>
-                            3 things we've invested in...
-                        </div>
                         <div
                             className='testimonials--slider'
                             style={{ backgroundColor: theme.primary }}
