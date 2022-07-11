@@ -132,6 +132,7 @@ function Contacts() {
     const classes = useStyles();
 
     const handleContactForm = async (e) => {
+        console.log('clicked');
         e.preventDefault();
 
         if (name && email && message) {
@@ -164,7 +165,7 @@ function Contacts() {
             style={{ backgroundColor: theme.secondary }}
         >
             <div className='contacts--container'>
-                <h1 style={{ color: theme.primary }}>Contacts</h1>
+                <h1 style={{ color: theme.primary }}>Contact Us</h1>
                 <div className='contacts-body'>
                     <div className='contacts-form'>
                         <form onSubmit={handleContactForm}>
