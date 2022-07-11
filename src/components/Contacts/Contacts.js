@@ -28,6 +28,8 @@ import { contactsData } from '../../data/contactsData';
 import './Contacts.css';
 
 function Contacts() {
+    const API_KEY = "7c2c5bdbf95c18a6ed9702275fa77eef3ffc217371fedd4f078d36b8e8e1f71cyour-mailslurp-api-key";
+
     const [open, setOpen] = useState(false);
 
     const [name, setName] = useState('');
@@ -129,27 +131,22 @@ function Contacts() {
 
     const classes = useStyles();
 
-    const handleContactForm = (e) => {
+    const handleContactForm = async (e) => {
         e.preventDefault();
 
         if (name && email && message) {
             if (isEmail(email)) {
                 const responseData = {
-                    name: name,
-                    email: email,
-                    message: message,
+                    senderId: 'ocean-form1.c7d67dc6-76a3-42e4-9163-93503000d3e7',
+                    to: 'ocean-form2.f3069e43-d2df-444f-b420-dc17f22c9b38',
+                    subject: email,
+                    body: message,
                 };
-
-                axios.post(contactsData.sheetAPI, responseData).then((res) => {
-                    console.log('success');
-                    setSuccess(true);
-                    setErrMsg('');
-
-                    setName('');
-                    setEmail('');
-                    setMessage('');
-                    setOpen(false);
-                });
+                await axios ({
+                    method: "POST",
+                    url: `https://api.mailslurp.com/sendEmail?apiKey=${API_KEY}`,
+                    data: responseData,
+                })
             } else {
                 setErrMsg('Invalid email');
                 setOpen(true);
